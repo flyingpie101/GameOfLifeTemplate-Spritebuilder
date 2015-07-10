@@ -13,7 +13,7 @@
 - (instancetype)initCreature
 {
     //since we made Creature inherit from CCSprite, 'super' below refers to CCSprite
-    self = [super initWithImageNamed:@"GameOfLifeAssets/Assets/resources-phone/bubble.png"];
+    self = [super initWithImageNamed:@"GameOfLifeAssets/GameOfLifeAssets/Assets/bubble.png"];
     //Users/greg/GameOfLifeTemplate-Spritebuilder/GameOfLife.spritebuilder/Source/Resources/Published-iOS/GameOfLifeAssets/GameOfLifeAssets/Assets/resources-phone/bubble.png
     if (self)
     {
